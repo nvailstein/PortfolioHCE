@@ -1,0 +1,105 @@
+/* Add a black background color to the top navigation */
+.navigation {
+  display: list-item;
+  background: url(./navBar.png), url(./RepeatingBackgroundHead.png);
+  background-size: contain;
+  overflow: hidden; 
+  background-repeat: no-repeat, repeat-x;
+}
+
+/* Style the links inside the navigation bar */
+.navigation a {
+  float: left;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  padding-left: 9%;
+  padding-right: 7%;
+  padding-top: 2%;
+}
+
+.navigation logo {
+  float: left;
+  color: #00FF9F;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  padding-right: 4%;
+}
+
+/* Change the color of links on hover */
+.navigation a:hover {
+  background-color: #ddd;
+  
+  color: black;
+}
+
+.navigation logo:hover {
+  background-color: #ddd;
+  
+  color: black;
+}
+
+/* Add a color to the active/current link */
+/*<a class="active" href="#home"> */
+.navigation a.active {
+  background-color: #BD00FF;
+  color: white;
+}
+
+.navigation logo.active {
+	background url(./logoBackground.png);
+  background-color: #BD00FF;
+  color: white;
+}
+
+h1 {
+  color: #00FF9F;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 40px;
+}
+
+p {
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 18px;
+}
+
+g {
+	color: #000000;
+    text-align: left;
+	font-size: 18px;
+	
+}
+
+.grid-container {
+  padding: 10% 10px;
+  display: inline-grid;
+  grid-gap: 5% 10px;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  }
+  
+  .grid-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+	padding-bottom: 5%;
+}
+
+.foot {
+    width: 100%;
+    height: 100px;
+    background-image: url(./footerRepeating.png);
+    background-size: 100% 100%;
+}​
+
+.foot a {
+	text-align: center;
+	
+}
+  
